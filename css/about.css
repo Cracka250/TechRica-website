@@ -1,0 +1,63 @@
+/*MENU SECTION*/
+:root {
+  --primary-color: #13b43b;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+
+  .about-header {
+    background-color: #13b43b;
+    color: white;
+    text-align: center;
+    padding: 40px 30px;
+  }
+
+  #logo{
+    float: left;width: 150px; height: 150px;
+    border-radius: 50%; 
+  }
+
+  #pic{
+    float: right;width: 150px; height: 150px;
+    border-radius: 50%; 
+  }
+
+  .myIcon{
+    float: right;
+    margin-right: 5px;
+    margin-top: 1px;
+    color: #007bff;
+    font-size: 20px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: #fff;
+  }
+
+  .team-grid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .team-member img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+
+  .team-member:hover img{
+    transform: scale(1.1);
+  }

@@ -1,0 +1,112 @@
+:root {
+  --primary-color: #13b43b;
+  --text-color: #333;
+  --background-color: #f4f4f4;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+h2{
+  text-align: center;
+}
+
+  .gallery-header {
+    background-color: #13b43b;
+    color: white;
+    text-align: center;
+    padding: 40px 30px;
+  }
+
+
+  #logo{
+    float: left;width: 150px; height: 150px;
+    border-radius: 50%; 
+  }
+
+  #pic{
+    float: right;width: 150px; height: 150px;
+    border-radius: 50%; 
+  }
+
+  .myIcon{
+    float: right;
+    margin-right: 5px;
+    margin-top: 1px;
+    color: #007bff;
+    font-size: 20px;
+  }
+
+  .gallery{
+    text-align: center;
+    padding: 20px;
+  }
+
+  .gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .gallery-item{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  /*Image Styling*/
+  .gallery-item img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease, opacity 0.3s ease;
+  }
+  /*Hover effect allowing for zoom and fade*/
+  
+  .gallery-item:hover img{
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  .slideshow-container{
+    width: 800px;
+    height: 500px;
+    position:relative;
+    overflow: hidden;
+  }    
+
+  .slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .active {
+    opacity: 1;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: #fff;
+  }
+
+ .horizontal-scroll{
+  display: flex;
+  overflow-x: scroll;
+  gap: 15px;
+ }
+
+ .horizontal-scroll img{
+  width: 300px;
+  height: auto;
+ }

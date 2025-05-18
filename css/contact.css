@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #13b43b;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    .contact-header {
+        background-color: #13b43b;
+        color: white;
+        text-align: center;
+        padding: 40px 30px;
+      }
+    
+      #logo{
+        float: left;width: 150px; height: 150px;
+        border-radius: 50%; 
+      }
+    
+      #pic{
+        float: right;width: 150px; height: 150px;
+        border-radius: 50%; 
+      }
+
+      .myIcon{
+        float: right;
+        margin-right: 5px;
+        margin-top: 1px;
+        color: #007bff;
+        font-size: 20px;
+      }
+
+    .contact-section{
+      background: #f4f4f4;
+      padding: 20px;
+    }
+
+    .contact-form{
+      max-width: 500px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .contact-form input, .contact-form textarea{
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background: #13b43b;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .contact-details, .social-media{
+background: #333;
+color: white;
+padding: 20px;
+    }
+
+    .social-media a {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px;
+      background: #13b43b;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
