@@ -61,3 +61,10 @@ body {
   .team-member:hover img{
     transform: scale(1.1);
   }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  }

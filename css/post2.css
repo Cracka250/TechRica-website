@@ -32,3 +32,10 @@
   h1{
     color: #007bff;
   }
+
+   @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  }

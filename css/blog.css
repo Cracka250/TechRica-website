@@ -176,3 +176,10 @@ body {
     cursor: pointer;
     border-radius: 5px;
   }
+
+   @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  }
